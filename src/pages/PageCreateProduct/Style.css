@@ -1,0 +1,278 @@
+@font-face {
+  font-family: Inter;
+  src: url(../../fonts/Inter-VariableFont_slnt_wght.ttf);
+}
+@font-face {
+  font-family: Museo Sans Cyrl;
+  src: url(../../fonts/MuseoSansCyrl.otf);
+}
+p {
+  margin: 0;
+}
+
+.create_product {
+  display: flex;
+  height: 100vh;
+  font-family: Inter;
+  font-style: normal;
+}
+
+.nav_container {
+  width: 240px;
+  background: #fff;
+  padding: 24px 30px 0 30px;
+}
+.block_logo {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.create_product .nav {
+  position: relative;
+  display: block;
+  height: auto;
+}
+.nav_block {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  margin-bottom: 32px;
+}
+.create_product .nav_block p,
+.nav_block p,
+.nav_block a {
+  text-decoration: none;
+  margin-left: 16px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #a4a6aa;
+}
+.nav_block__line {
+  display: block;
+  margin-bottom: 32px;
+}
+.close_block {
+  position: absolute;
+  display: flex;
+  align-items: flex-end;
+  top: 600px;
+  bottom: 0;
+}
+.pos_down {
+  margin-bottom: 0;
+  height: 20px;
+  margin-bottom: 32px;
+}
+
+.main {
+  display: block;
+  width: 100%;
+  background: #e5e5e569;
+}
+.create_product .main .header,
+.container {
+  display: flex;
+  padding: 45px 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.create_product .header .nav_block {
+  margin: 0;
+}
+.create_product .header .head_block {
+  display: flex;
+}
+.create_product .header .head {
+  margin: 0 0 0 32px;
+  font-weight: bold;
+  font-size: 32px;
+  color: #000c18;
+}
+
+.create_product .buttons_block {
+  display: flex;
+  align-items: center;
+}
+.create_product .buttons_block .button_1,
+.create_product .buttons_block .button_2 {
+  font-family: "Museo" "Sans" "Cyrl";
+  width: 198px;
+  height: 50px;
+  font-size: 16px;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  padding: 14.5px 23.5px;
+}
+.create_product .buttons_block .button_1 {
+  font-weight: normal;
+  font-style: normal;
+  color: #ff8103;
+  border: 1px solid #ff8103;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-right: 24px;
+}
+.create_product .buttons_block .button_2 {
+  font-weight: 600;
+  font-family: Inter;
+  background: #ff8103;
+  color: #fff;
+  opacity: 0.4;
+  border-radius: 6px;
+}
+
+.create_product .buttons_block .button_1:focus,
+.create_product .buttons_block .button_2:focus {
+  outline: none;
+}
+
+.create_product .buttons_block .button_1,
+.create_product .buttons_block .button_2,
+.category_selection,
+.subcategory {
+  cursor: pointer;
+  user-select: none;
+}
+
+.container {
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  align-items: flex-start;
+}
+
+.block_infos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.category_selection,
+.subcategory {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  width: 300px;
+  height: 48px;
+  padding: 14px 21.82px;
+  background: #fff;
+  border-radius: 6px;
+}
+
+.css-tlfecz-indicatorContainer,
+.css-1gtu0rj-indicatorContainer {
+  margin-right: -15px;
+}
+
+.category_selection {
+  margin-right: 20px;
+}
+
+@media (max-width: 1361px) {
+  .category_selection,
+  .subcategory {
+    width: 200px;
+  }
+}
+
+.infos_preview {
+  display: block;
+  width: 396px;
+  min-height: auto;
+  padding: 32px 40px;
+  box-sizing: border-box;
+  background: #ffffff;
+  font-family: Inter;
+}
+.infos_preview .head,
+.infos_preview .info .review,
+.block_count_product .count,
+.block_vendor_code .vendor_code {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #a4a6aa;
+}
+.infos_preview .image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 211px;
+  margin-top: 20px;
+}
+
+.infos_preview .info {
+  padding: 16px;
+  background: #f4f6f6;
+}
+.infos_preview .info .review,
+.block_count_product .count,
+.block_vendor_code .vendor_code {
+  font-size: 14px;
+}
+
+.block_vendor_code {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+.block_vendor_code .vendor_code {
+  font-style: normal;
+  font-weight: normal;
+  color: #000c18;
+}
+
+.info .head_name {
+  margin: 8px 0 12px 0;
+  word-wrap: break-word;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 22px;
+  color: #000c18;
+}
+.block_price {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: #ff8103;
+}
+
+.container_info {
+  padding-right: 40px;
+  font-family: Inter;
+  font-style: normal;
+  width: 100%;
+}
+.block_infos__head {
+  margin-top: 24px 0;
+  width: 224px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000c18;
+}
+
+.name_info_head {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000c18;
+}
+.block_add_photo,
+.block_add_photo {
+  width: 100%;
+}
+.block_add_photo {
+}

@@ -1,0 +1,115 @@
+.pt24 {
+    padding-top: 20px;
+}
+
+.pr32 {
+    padding-right: 32px;
+}
+
+/* //// */
+
+input[type="file"] {
+    display: none;
+}
+ 
+.custom-file-upload {
+    color: #A4A6AA;
+    background: #fff;
+    width: 300px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.custom-file-upload p {
+    margin: 20px;
+}
+
+.custom-file-upload .plus { 
+    font-size: 30px;
+    color: #FF8103;
+    padding: 10px 20px;
+}
+
+.after-star::after {
+    content: "*";
+    color: #FF8103;
+}
+
+
+/* /////////////////////////// */
+
+.block_name_product {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.input-text {
+    color: #A4A6AA;
+    font-size: 16px;
+    width: 80%;
+    border: none;
+    padding: 14px;
+}
+
+.input-text:target {
+    border: none;
+}
+
+.input-for-name {
+    width: 70% !important;
+}
+
+.input-for-articul {
+    width: 30% !important;
+}
+
+
+/* //// */
+
+.block-num-product {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.block-num-product > span {
+    width: 25%;
+}
+
+/* decription */
+
+.description {
+    width: 100%;
+}
+
+.description .text-container {
+    background-color: #fff;
+    height: 250px;
+    margin-right: 25px;
+}
+
+.style-redact {
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid #E4E4E4;
+}
+
+.style-redact > svg {
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.text-container .text {
+    width: 100%;
+    padding: 10px;
+}
+
+.text-container .text textarea {
+    width: 98%;
+    height: 170px;
+    border: none;
+}
